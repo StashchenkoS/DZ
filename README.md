@@ -1,2 +1,2 @@
 # DZ
-ttps://stashchenkos.github.io/DZ/
+https://stashchenkos.github.io/DZ/
