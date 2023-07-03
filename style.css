@@ -1,0 +1,196 @@
+* {
+    box-sizing: border-box;
+
+}
+
+body {
+    margin: 0;
+    font-family: 'Montserrat';
+    color: #774E2E;
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+    /* border: 1px solid black; */
+}
+
+h1 {
+    font-weight: 800;
+    font-size: 110px;
+    margin: 0;
+    padding: 40px 0;
+    line-height: 100%;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 110%;
+    text-transform: uppercase;
+}
+
+h1 span,
+h2 span {
+    color: #F37F34;
+}
+
+p {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+}
+
+b {
+    font-size: 24px;
+    line-height: 130%;
+    font-weight: 600;
+}
+
+/* COMMON STYLES END */
+/* HEADER STYLES START */
+
+header {
+    padding-top: 30px;
+    padding-bottom: 150px;
+}
+
+.logo {
+    width: 80px;
+    height: 80px;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+nav a {
+    margin-left: 50px;
+    color: #774E2E;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 130%;
+    user-select: none;
+}
+
+.greating {
+    background-image: url(./Images/bg.png);
+    background-repeat: no-repeat;
+    background-position: right center;
+
+}
+
+.text {
+    width: 575px;
+}
+
+.text p {
+    margin: 0;
+    padding-bottom: 50px;
+}
+
+.btn {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 130%;
+    color: #fff;
+    border: none;
+    background-color: #774E2E;
+    padding: 21px 42px;
+    margin-bottom: 50px;
+    cursor: pointer;
+    user-select: none;
+}
+
+/* HEADER STYLES END */
+/* SWEET STYLES START */
+
+.sweet_section {
+    background-color: #FFF9EA;
+    padding: 150px 0;
+}
+
+.sweet_section h2 {
+    text-align: center;
+    margin: 0;
+    margin-bottom: 70px;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    width: 370px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.card p {
+    padding: 0 20px 20px;
+
+}
+
+.card img {
+    width: 100%;
+    height: 248px;
+    margin-bottom: 36px;
+}
+
+/* SWEET STYLES END */
+/* ADVICE STYLES START */
+
+.advice {
+    background-image: url(./Images/bg2.png);
+    background-repeat: no-repeat;
+    background-position: right center;
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+.text h2 {
+    margin: 0;
+    padding: 44px 0;
+}
+
+.text li {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+}
+
+.text ul {
+    padding: 20px 0 40px 40px;
+    margin: 0;
+}
+
+/* ADVICE STYLES END */
+/* FOOTER STYLES START */
+
+footer {
+    background-color: #774E2E;
+}
+
+.foot {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.foot p {
+    font-size: 36px;
+    line-height: 130%;
+    color: #fff;
+}
